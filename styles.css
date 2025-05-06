@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #002244;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(to right, #007BFF, #00BFFF);
+  color: white;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.btn {
+  background: #002244;
+  color: white;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.products {
+  padding: 2em;
+  background: #fff;
+}
+
+.product-grid {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: #f9f9f9;
+  padding: 1em;
+  border: 1px solid #ddd;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card button {
+  margin-top: 1em;
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about, .contact, .cart {
+  padding: 2em;
+  background: #f0f0f0;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #002244;
+  color: white;
+}
